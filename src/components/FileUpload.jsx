@@ -79,7 +79,7 @@ export default function FileUpload({ onFileSelect, isLoading, fileName }) {
         type="file"
         accept="application/pdf"
         onChange={handleFileInput}
-        className="hidden"
+        className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
         disabled={isLoading}
       />
 

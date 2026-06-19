@@ -15,6 +15,19 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  overscroll-behavior-y: contain;
+}
+
+button, [role='button'], input {
+  touch-action: manipulation;
+}
+
+input[type='text'], input[type='password'], input[type='email'] {
+  font-size: 16px;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 @keyframes fadeIn {
